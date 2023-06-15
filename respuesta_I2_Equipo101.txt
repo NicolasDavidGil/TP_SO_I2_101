@@ -1,4 +1,6 @@
-a- Para actualizar mi repositorio al estado del repositorio que hice fork, utilizo el comando git remote add upstream https://github.com/NicolasDavidGil/TP_SO_I2_101.git para establecer la referencia, git fetch upstream y git checkout main para actualizar mi repositorio en base al original, git rebase upstream/main para traer los commits y git push -f origin main para subir los cambios
-b- Sí, utilizando los mismos pasos que se usaron para actualizar el repositorio forkeado en base al repositorio original
+Integrantes:
+Ariana De Palma
+Lautaro FrancoMagro
+Nicolas David Gil
 a- Para actualizar mi repositorio al estado del repositorio que hice fork, utilizo el comando git remote add upstream https://github.com/NicolasDavidGil/TP_SO_I2_101.git para establecer la referencia, git fetch upstream y git checkout main para actualizar mi repositorio en base al original, git rebase upstream/main para traer los commits y git push -f origin main para subir los cambios
 b- Sí, utilizando los mismos pasos que se usaron para actualizar el repositorio forkeado en base al repositorio original
