@@ -5,4 +5,49 @@ Nicolas David Gil
 a- Para actualizar mi repositorio al estado del repositorio que hice fork, utilizo el comando git remote add upstream https://github.com/NicolasDavidGil/TP_SO_I2_101.git para establecer la referencia, git fetch upstream y git checkout main para actualizar mi repositorio en base al original, git rebase upstream/main para traer los commits y git push -f origin main para subir los cambios
 b- Sí, utilizando los mismos pasos que se usaron para actualizar el repositorio forkeado en base al repositorio original
 c- Sí, utilizando los mismos pasos que se usaron para actualizar el repositorio forkeado en base al repositorio original
-d-Si, a la hora de actualizar el repositorio se copia tal cual esta.
+d- Si, a la hora de actualizar el repositorio se copia tal cual esta.
+c- Gil Nicolas David:
+punto 1:
+git clone,
+echo "" > /ruta/fork.txt,
+git add .
+git commit
+git push
+punto 2:
+echo "" > /ruta/nuevodato.txt
+git add .
+git commit -m "push beta con dato.txt"
+git push
+punto 3:
+echo "Integrantes:\nAriana De Palma\nLautaro Francomagro\nNicolas David Gil" > /ruta/respuesta_I2_Equipo101.txt
+git add .
+git commit -m "push beta con respuesta_i2_Equipo101.txt"
+git push
+
+Lautaro Francomagro:
+punto 1:
+git clone
+echo -e "Nombre: Lautaro Francomagro\nIP: $(hostname -i)\nHora:$(date +%H:%M:%S)" >> ./TP_SO_I2_101/fork.txt
+git add .
+git commit -m "Alfa Push"
+git push
+punto 2:
+git remote add upstream https://github.com/NicolasDavidGil/TP_SO_I2_101.git
+git fetch upstream
+git checkout upstream/main
+git rebase upstream/main
+git push -f origin upstream/main
+
+Ariana De Palma:
+punto 1:
+git clone
+echo -e "Nombre: Ariana De Palma\nIP: $(hostname -i)\nHora:$(date +%H:%M:%S)" >> ./TP_SO_I2_101/fork.txt
+git add .
+git commit -m "Gamma Push"
+git push
+punto 2:
+git remote add upstream https://github.com/NicolasDavidGil/TP_SO_I2_101.git
+git fetch upstream
+git checkout upstream/main
+git rebase upstream/main
+git push -f origin upstream/main
